@@ -26,6 +26,7 @@ namespace Bit.App.Pages
         private readonly IClipboardService _clipboardService;
         private readonly ISyncService _syncService;
         private readonly IPushNotification _pushNotification;
+        private readonly IDeviceInfoService _deviceInfoService;
         private readonly ISettings _settings;
         private readonly bool _favorites;
         private bool _loadExistingData;
@@ -42,6 +43,7 @@ namespace Bit.App.Pages
             _clipboardService = Resolver.Resolve<IClipboardService>();
             _syncService = Resolver.Resolve<ISyncService>();
             _pushNotification = Resolver.Resolve<IPushNotification>();
+            _deviceInfoService = Resolver.Resolve<IDeviceInfoService>();
             _settings = Resolver.Resolve<ISettings>();
 
             var cryptoService = Resolver.Resolve<ICryptoService>();
@@ -99,6 +101,11 @@ namespace Bit.App.Pages
             };
             Search.TextChanged += SearchBar_TextChanged;
             Search.SearchButtonPressed += SearchBar_SearchButtonPressed;
+            // Bug with searchbar on android 7, ref https://bugzilla.xamarin.com/show_bug.cgi?id=43975
+            if(Device.OS == TargetPlatform.Android && _deviceInfoService.Version >= 24)
+            {
+                Search.HeightRequest = 50;
+            }
 
             Title = _favorites ? AppResources.Favorites : AppResources.MyVault;
 
@@ -473,29 +480,30 @@ namespace Bit.App.Pages
                 var image = new Image
                 {
                     Source = "folder",
-                    VerticalOptions = LayoutOptions.CenterAndExpand
+                    WidthRequest = 18,
+                    HeightRequest = 18
                 };
 
                 var label = new Label
                 {
                     FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
-                    VerticalTextAlignment = TextAlignment.Center,
-                    VerticalOptions = LayoutOptions.CenterAndExpand,
                     Style = (Style)Application.Current.Resources["text-muted"]
                 };
 
                 label.SetBinding<VaultListPageModel.Folder>(Label.TextProperty, s => s.Name);
 
-                var stackLayout = new StackLayout
+                var grid = new Grid
                 {
-                    Orientation = StackOrientation.Horizontal,
-                    VerticalOptions = LayoutOptions.FillAndExpand,
-                    Children = { image, label },
-                    Padding = new Thickness(16, 0, 0, 0)
+                    ColumnSpacing = 10,
+                    Padding = new Thickness(16, 8, 0, 8)
                 };
+                grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
+                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(18, GridUnitType.Absolute) });
+                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+                grid.Children.Add(image, 0, 0);
+                grid.Children.Add(label, 1, 0);
 
-                View = stackLayout;
-                Height = 40;
+                View = grid;
                 BackgroundColor = Color.FromHex("efeff4");
             }
         }
