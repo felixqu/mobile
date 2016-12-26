@@ -37,6 +37,7 @@
   <ItemGroup>
     <Compile Include="Abstractions\Repositories\IAccountsApiRepository.cs" />
     <Compile Include="Abstractions\Repositories\IDeviceApiRepository.cs" />
+    <Compile Include="Abstractions\Services\IHttpService.cs" />
     <Compile Include="Abstractions\Services\IDeviceInfoService.cs" />
     <Compile Include="Abstractions\Services\IGoogleAnalyticsService.cs" />
     <Compile Include="Abstractions\Services\IAppInfoService.cs" />
@@ -44,6 +45,7 @@
     <Compile Include="Abstractions\Services\IAuthService.cs" />
     <Compile Include="Abstractions\Services\IClipboardService.cs" />
     <Compile Include="Abstractions\Services\IKeyDerivationService.cs" />
+    <Compile Include="Abstractions\Services\ILogService.cs" />
     <Compile Include="Abstractions\Services\IReflectionService.cs" />
     <Compile Include="Abstractions\Services\ISiteService.cs" />
     <Compile Include="Abstractions\Services\IFolderService.cs" />
@@ -161,6 +163,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AppResources.es.resx</DependentUpon>
     </Compile>
+    <Compile Include="Resources\AppResources.sv.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.sv.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\AppResources.zh-Hans.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.zh-Hans.resx</DependentUpon>
+    </Compile>
     <Compile Include="Services\AppIdService.cs" />
     <Compile Include="Abstractions\Services\ILockService.cs" />
     <Compile Include="Services\LockService.cs" />
@@ -197,6 +209,14 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>AppResources.es.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.sv.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.sv.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.zh-Hans.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.zh-Hans.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Resources\public_suffix_list.dat" />
   </ItemGroup>
   <ItemGroup>
@@ -219,6 +239,9 @@
     <Reference Include="Microsoft.Practices.Unity, Version=3.5.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Unity.3.5.1405-prerelease\lib\portable-net45+wp80+win8+wpa81+MonoAndroid10+MonoTouch10\Microsoft.Practices.Unity.dll</HintPath>
       <Private>True</Private>
+    </Reference>
+    <Reference Include="Mono.Android">
+      <HintPath>..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v6.0\Mono.Android.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
