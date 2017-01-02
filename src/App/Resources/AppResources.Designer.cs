@@ -530,6 +530,15 @@ namespace Bit.App.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Extension Activated!.
+        /// </summary>
+        public static string ExtensionActivated {
+            get {
+                return ResourceManager.GetString("ExtensionActivated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Almost done!.
         /// </summary>
         public static string ExtensionAlmostDone {
@@ -769,6 +778,15 @@ namespace Bit.App.Resources {
         public static string Hide {
             get {
                 return ResourceManager.GetString("Hide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Icons.
+        /// </summary>
+        public static string Icons {
+            get {
+                return ResourceManager.GetString("Icons", resourceCulture);
             }
         }
         
@@ -1466,6 +1484,15 @@ namespace Bit.App.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Sites.
+        /// </summary>
+        public static string Sites {
+            get {
+                return ResourceManager.GetString("Sites", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Site updated..
         /// </summary>
         public static string SiteUpdated {
@@ -1561,6 +1588,15 @@ namespace Bit.App.Resources {
         public static string TouchID {
             get {
                 return ResourceManager.GetString("TouchID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Translations.
+        /// </summary>
+        public static string Translations {
+            get {
+                return ResourceManager.GetString("Translations", resourceCulture);
             }
         }
         

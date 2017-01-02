@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,25 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="About" xml:space="preserve">
-    <value>About</value>
+    <value>A propos</value>
   </data>
   <data name="Add" xml:space="preserve">
-    <value>Add</value>
+    <value>Ajouter</value>
     <comment>Add/create a new entity (verb).</comment>
   </data>
   <data name="AddFolder" xml:space="preserve">
-    <value>Add Folder</value>
+    <value>Ajouter dossier</value>
   </data>
   <data name="AddSite" xml:space="preserve">
-    <value>Add Site</value>
+    <value>Ajouter site</value>
     <comment>The title for the add site page.</comment>
   </data>
   <data name="AnErrorHasOccurred" xml:space="preserve">
-    <value>An error has occurred.</value>
+    <value>Une erreur est survenue.</value>
     <comment>Alert title when something goes wrong.</comment>
   </data>
   <data name="Back" xml:space="preserve">
-    <value>Back</value>
+    <value>Retour</value>
     <comment>Navigate back to the previous screen.</comment>
   </data>
   <data name="Bitwarden" xml:space="preserve">
@@ -144,155 +144,155 @@
     <comment>App name. Shouldn't ever change.</comment>
   </data>
   <data name="Cancel" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Annuler</value>
     <comment>Cancel an operation.</comment>
   </data>
   <data name="Copy" xml:space="preserve">
-    <value>Copy</value>
+    <value>Copier</value>
     <comment>Copy some value to your clipboard.</comment>
   </data>
   <data name="CopyPassword" xml:space="preserve">
-    <value>Copy Password</value>
+    <value>Copier mot de passe</value>
     <comment>The button text that allows a user to copy the site's password to their clipboard.</comment>
   </data>
   <data name="CopyUsername" xml:space="preserve">
-    <value>Copy Username</value>
+    <value>Copier nom d'utilisateur</value>
     <comment>The button text that allows a user to copy the site's username to their clipboard.</comment>
   </data>
   <data name="Credits" xml:space="preserve">
-    <value>Credits</value>
+    <value>Remerciements</value>
     <comment>Title for page that we use to give credit to resources that we use.</comment>
   </data>
   <data name="Delete" xml:space="preserve">
-    <value>Delete</value>
+    <value>Supprimer</value>
     <comment>Delete an entity (verb).</comment>
   </data>
   <data name="Deleting" xml:space="preserve">
-    <value>Deleting...</value>
+    <value>Suppression...</value>
     <comment>Message shown when interacting with the server</comment>
   </data>
   <data name="DoYouReallyWantToDelete" xml:space="preserve">
-    <value>Do you really want to delete? This cannot be undone.</value>
+    <value>Êtes-vous sûr(e) de vouloir supprimer ? Ne peut être annulé.</value>
     <comment>Confirmation alert message when deleteing something.</comment>
   </data>
   <data name="Edit" xml:space="preserve">
-    <value>Edit</value>
+    <value>Modifier</value>
   </data>
   <data name="EditFolder" xml:space="preserve">
-    <value>Edit Folder</value>
+    <value>Modifier dossier</value>
   </data>
   <data name="Email" xml:space="preserve">
-    <value>Email</value>
+    <value>E-mail</value>
     <comment>Short label for an email address.</comment>
   </data>
   <data name="EmailAddress" xml:space="preserve">
-    <value>Email Address</value>
+    <value>Adresse e-mail</value>
     <comment>Full label for a email address.</comment>
   </data>
   <data name="EmailUs" xml:space="preserve">
-    <value>Email Us</value>
+    <value>Écrivez-nous</value>
   </data>
   <data name="EmailUsDescription" xml:space="preserve">
-    <value>Email us directly to get help or leave feedback.</value>
+    <value>Contactez-nous directement pour obtenir de l'aide ou pour nous faire part d'un commentaire.</value>
   </data>
   <data name="EnterPIN" xml:space="preserve">
-    <value>Enter your PIN code.</value>
+    <value>Saisissez votre code PIN.</value>
   </data>
   <data name="Favorites" xml:space="preserve">
-    <value>Favorites</value>
+    <value>Favoris</value>
     <comment>Title for your favorite items in the vault.</comment>
   </data>
   <data name="FileBugReport" xml:space="preserve">
-    <value>File a Bug Report</value>
+    <value>Envoyer un rapport de bogue</value>
   </data>
   <data name="FileBugReportDescription" xml:space="preserve">
-    <value>Open an issue at our GitHub repository.</value>
+    <value>Ouvrir un ticket dans notre dépôt Github.</value>
   </data>
   <data name="FingerprintDirection" xml:space="preserve">
-    <value>Use your fingerprint to verify.</value>
+    <value>Utiliser votre empreinte pour contrôle.</value>
   </data>
   <data name="Folder" xml:space="preserve">
-    <value>Folder</value>
+    <value>Dossier</value>
     <comment>Label for a folder.</comment>
   </data>
   <data name="FolderCreated" xml:space="preserve">
-    <value>New folder created.</value>
+    <value>Nouveau dossier créé.</value>
   </data>
   <data name="FolderDeleted" xml:space="preserve">
-    <value>Folder deleted.</value>
+    <value>Dossier supprimé.</value>
   </data>
   <data name="FolderNone" xml:space="preserve">
-    <value>(none)</value>
+    <value>(aucun)</value>
     <comment>Sites that have no folder specified go in this special "catch-all" folder.</comment>
   </data>
   <data name="Folders" xml:space="preserve">
-    <value>Folders</value>
+    <value>Dossiers</value>
   </data>
   <data name="FolderUpdated" xml:space="preserve">
-    <value>Folder updated.</value>
+    <value>Dossier mis à jour.</value>
   </data>
   <data name="GoToWebsite" xml:space="preserve">
-    <value>Go To Website</value>
+    <value>Visiter le site web</value>
     <comment>The button text that allows user to launch the website to their web browser.</comment>
   </data>
   <data name="HelpAndFeedback" xml:space="preserve">
-    <value>Help and Feedback</value>
+    <value>Aide et retour</value>
   </data>
   <data name="Hide" xml:space="preserve">
-    <value>Hide</value>
+    <value>Masquer</value>
     <comment>Hide a secret value that is currently shown (password).</comment>
   </data>
   <data name="InternetConnectionRequiredMessage" xml:space="preserve">
-    <value>Please connect to the internet before continuing.</value>
+    <value>Veuillez vous connecter à Internet avant de poursuivre.</value>
     <comment>Description message for the alert when internet connection is required to continue.</comment>
   </data>
   <data name="InternetConnectionRequiredTitle" xml:space="preserve">
-    <value>Internet Connection Required</value>
+    <value>Connexion Internet requise</value>
     <comment>Title for the alert when internet connection is required to continue.</comment>
   </data>
   <data name="InvalidMasterPassword" xml:space="preserve">
-    <value>Invalid Master Password. Try again.</value>
+    <value>Mot de passe maître invalide. Veuillez réessayer.</value>
   </data>
   <data name="InvalidPIN" xml:space="preserve">
-    <value>Invalid PIN. Try again.</value>
+    <value>PIN invalide. Veuillez réessayer.</value>
   </data>
   <data name="Launch" xml:space="preserve">
-    <value>Launch</value>
+    <value>Démarrer</value>
     <comment>The button text that allows user to launch the website to their web browser.</comment>
   </data>
   <data name="LogIn" xml:space="preserve">
-    <value>Log In</value>
+    <value>S'identifier</value>
     <comment>The login button text (verb).</comment>
   </data>
   <data name="LogInNoun" xml:space="preserve">
-    <value>Login</value>
+    <value>Nom d'utilisateur</value>
     <comment>Title for login page. (noun)</comment>
   </data>
   <data name="LogOut" xml:space="preserve">
-    <value>Log Out</value>
+    <value>Déconnexion</value>
     <comment>The log out button text (verb).</comment>
   </data>
   <data name="LogoutConfirmation" xml:space="preserve">
-    <value>Are you sure you want to log out?</value>
+    <value>Êtes-vous sûr(e) de vouloir vous déconnecter ?</value>
   </data>
   <data name="MasterPassword" xml:space="preserve">
-    <value>Master Password</value>
+    <value>Mot de passe maître</value>
     <comment>Label for a master password.</comment>
   </data>
   <data name="More" xml:space="preserve">
-    <value>More</value>
+    <value>Plus</value>
     <comment>Text to define that there are more options things to see.</comment>
   </data>
   <data name="MyVault" xml:space="preserve">
-    <value>My Vault</value>
+    <value>Mon coffre</value>
     <comment>The title for the vault page.</comment>
   </data>
   <data name="Name" xml:space="preserve">
-    <value>Name</value>
+    <value>Nom</value>
     <comment>Label for an entity name.</comment>
   </data>
   <data name="No" xml:space="preserve">
-    <value>No</value>
+    <value>Non</value>
   </data>
   <data name="Notes" xml:space="preserve">
     <value>Notes</value>
@@ -303,45 +303,45 @@
     <comment>Acknowledgement.</comment>
   </data>
   <data name="Password" xml:space="preserve">
-    <value>Password</value>
+    <value>Mot de passe</value>
     <comment>Label for a password.</comment>
   </data>
   <data name="Save" xml:space="preserve">
-    <value>Save</value>
+    <value>Enregistrer</value>
     <comment>Button text for a save operation (verb).</comment>
   </data>
   <data name="Saving" xml:space="preserve">
-    <value>Saving...</value>
+    <value>Enregistrement...</value>
     <comment>Message shown when interacting with the server</comment>
   </data>
   <data name="Settings" xml:space="preserve">
-    <value>Settings</value>
+    <value>Paramètres</value>
     <comment>The title for the settings page.</comment>
   </data>
   <data name="Show" xml:space="preserve">
-    <value>Show</value>
+    <value>Afficher</value>
     <comment>Reveal a hidden value (password).</comment>
   </data>
   <data name="SiteDeleted" xml:space="preserve">
-    <value>Site has been deleted.</value>
+    <value>Le site a été supprimé.</value>
     <comment>Confirmation message after successfully deleting a site.</comment>
   </data>
   <data name="SiteNoName" xml:space="preserve">
-    <value>No Name</value>
+    <value>Aucun nom</value>
     <comment>Title text to display when there is no name given for a site.</comment>
   </data>
   <data name="Submit" xml:space="preserve">
-    <value>Submit</value>
+    <value>Soumettre</value>
   </data>
   <data name="Sync" xml:space="preserve">
-    <value>Sync</value>
+    <value>Synchronisation</value>
     <comment>The title for the sync page.</comment>
   </data>
   <data name="ThankYou" xml:space="preserve">
-    <value>Thank You</value>
+    <value>Merci</value>
   </data>
   <data name="Tools" xml:space="preserve">
-    <value>Tools</value>
+    <value>Outils</value>
     <comment>The title for the tools page.</comment>
   </data>
   <data name="URI" xml:space="preserve">
@@ -349,412 +349,412 @@
     <comment>Label for a uri/url.</comment>
   </data>
   <data name="UseFingerprintToUnlock" xml:space="preserve">
-    <value>Use Fingerprint to Unlock</value>
+    <value>Utiliser votre empreinte pour déverrouiller</value>
   </data>
   <data name="Username" xml:space="preserve">
-    <value>Username</value>
+    <value>Nom d'utilisateur</value>
     <comment>Label for a username.</comment>
   </data>
   <data name="ValidationFieldRequired" xml:space="preserve">
-    <value>The {0} field is required.</value>
+    <value>Le champ {0} est requis.</value>
     <comment>Validation message for when a form field is left blank and is required to be entered.</comment>
   </data>
   <data name="ValueHasBeenCopied" xml:space="preserve">
-    <value>{0} has been copied.</value>
+    <value>{0} a été copié.</value>
     <comment>Confirmation message after suceessfully copying a value to the clipboard.</comment>
   </data>
   <data name="VerifyFingerprint" xml:space="preserve">
-    <value>Verify Fingerprint</value>
+    <value>Vérifiez l'empreinte</value>
   </data>
   <data name="VerifyMasterPassword" xml:space="preserve">
-    <value>Verify Master Password</value>
+    <value>Vérifiez le mot de passe maître</value>
   </data>
   <data name="VerifyPIN" xml:space="preserve">
-    <value>Verify PIN</value>
+    <value>Vérifiez le PIN</value>
   </data>
   <data name="Version" xml:space="preserve">
     <value>Version</value>
   </data>
   <data name="View" xml:space="preserve">
-    <value>View</value>
+    <value>Voir</value>
   </data>
   <data name="VisitOurWebsite" xml:space="preserve">
-    <value>Visit Our Website</value>
+    <value>Visitez notre site web</value>
   </data>
   <data name="VisitOurWebsiteDescription" xml:space="preserve">
-    <value>Visit our website to get help, news, email us, and/or learn more about how to use bitwarden.</value>
+    <value>Visitez notre site web pour obtenir de l'aide, lire les actualités, nous écrire et/ou apprendre à mieux utiliser bitwarden.</value>
   </data>
   <data name="Website" xml:space="preserve">
-    <value>Website</value>
+    <value>Site web</value>
     <comment>Label for a website.</comment>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>Yes</value>
+    <value>Oui</value>
   </data>
   <data name="Account" xml:space="preserve">
-    <value>Account</value>
+    <value>Compte</value>
   </data>
   <data name="AccountCreated" xml:space="preserve">
-    <value>Your new account has been created! You may now log in.</value>
+    <value>Votre nouveau compte a été créé ! Vous pouvez maintenant vous identifier.</value>
   </data>
   <data name="AddASite" xml:space="preserve">
-    <value>Add a Site</value>
+    <value>Ajouter un site</value>
   </data>
   <data name="AppExtension" xml:space="preserve">
-    <value>App Extension</value>
+    <value>Extension de l'application</value>
   </data>
   <data name="AutofillDescription" xml:space="preserve">
-    <value>Use the bitwarden accessibility service to auto-fill your logins across apps and the web.</value>
+    <value>Utiliser le service d'accessibilité pour le remplissage automatique de vos identifiants sur vos applications et le web.</value>
   </data>
   <data name="AutofillService" xml:space="preserve">
-    <value>Auto-fill Service</value>
+    <value>Service de remplissage automatique</value>
   </data>
   <data name="AvoidAmbiguousCharacters" xml:space="preserve">
-    <value>Avoid Ambiguous Characters</value>
+    <value>Évitez les caractères ambigus</value>
   </data>
   <data name="BitwardenAppExtension" xml:space="preserve">
-    <value>bitwarden App Extension</value>
+    <value>Extension de l'application bitwarden</value>
   </data>
   <data name="BitwardenAppExtensionAlert" xml:space="preserve">
-    <value>The easiest way to add new sites to your vault is from the bitwarden App Extension. Learn more about using the bitwarden App Extension by navigating to the "Tools" screen.</value>
+    <value>Le meilleur moyen d'ajouter de nouveaux sites à votre coffre est d'utiliser l'extension de l'application bitwarden. Parcourez le menu "Outils" pour en apprendre davantage.</value>
   </data>
   <data name="BitwardenAppExtensionDescription" xml:space="preserve">
-    <value>Use bitwarden in Safari and other apps to auto-fill your logins.</value>
+    <value>Utilisez bitwarden dans Safari et d'autres applications pour le remplissage automatique de vos identifiants.</value>
   </data>
   <data name="BitwardenAutofillService" xml:space="preserve">
-    <value>bitwarden Auto-fill Service</value>
+    <value>Service de remplissage automatique bitwarden</value>
   </data>
   <data name="BitwardenAutofillServiceDescription" xml:space="preserve">
-    <value>Use the bitwarden accessibility service to auto-fill your logins.</value>
+    <value>Utilisez le service d'accessibilité bitwarden pour le remplissage automatique de vos identifiants.</value>
   </data>
   <data name="ChangeEmail" xml:space="preserve">
-    <value>Change Email</value>
+    <value>Changer d'e-mail</value>
   </data>
   <data name="ChangeEmailConfirmation" xml:space="preserve">
-    <value>You can change your email address on the bitwarden.com web vault. Do you want to visit the website now?</value>
+    <value>Vous pouvez changer votre adresse e-mail depuis le coffre web sur bitwarden.com. Voulez-vous visiter le site web maintenant ?</value>
   </data>
   <data name="ChangeMasterPassword" xml:space="preserve">
-    <value>Change Master Password</value>
+    <value>Changer le mot de passe maître</value>
   </data>
   <data name="ChangePasswordConfirmation" xml:space="preserve">
-    <value>You can change your master password on the bitwarden.com web vault. Do you want to visit the website now?</value>
+    <value>Vous pouvez changer votre mot de passe maître depuis le coffre web sur bitwarden.com. Voulez-vous visiter le site web maintenant ?</value>
   </data>
   <data name="Close" xml:space="preserve">
-    <value>Close</value>
+    <value>Fermer</value>
   </data>
   <data name="ComingSoon" xml:space="preserve">
-    <value>Coming Soon!</value>
+    <value>Prochainement !</value>
   </data>
   <data name="Continue" xml:space="preserve">
-    <value>Continue</value>
+    <value>Continuer</value>
   </data>
   <data name="Copied" xml:space="preserve">
-    <value>Copied!</value>
+    <value>Copié!</value>
   </data>
   <data name="CopiedPassword" xml:space="preserve">
-    <value>Copied password!</value>
+    <value>Mot de passe copié !</value>
   </data>
   <data name="CopiedUsername" xml:space="preserve">
-    <value>Copied username!</value>
+    <value>Nom d'utilisateur copié !</value>
   </data>
   <data name="CreateAccount" xml:space="preserve">
-    <value>Create Account</value>
+    <value>Créer un compte</value>
   </data>
   <data name="CreatingAccount" xml:space="preserve">
-    <value>Creating account...</value>
+    <value>Création du compte...</value>
     <comment>Message shown when interacting with the server</comment>
   </data>
   <data name="CurrentSession" xml:space="preserve">
-    <value>Current Session</value>
+    <value>Session actuelle</value>
   </data>
   <data name="EditSite" xml:space="preserve">
-    <value>Edit Site</value>
+    <value>Modifier Site</value>
   </data>
   <data name="EnableAutomaticSyncing" xml:space="preserve">
-    <value>Enable Automatic Syncing</value>
+    <value>Activer la synchronisation automatique</value>
   </data>
   <data name="EnterEmailForHint" xml:space="preserve">
-    <value>Enter your account email address to receive your master password hint.</value>
+    <value>Saisissez l'adresse e-mail de votre compte pour recevoir l'indice de votre mot de passe maître.</value>
   </data>
   <data name="EnterVerificationCode" xml:space="preserve">
-    <value>Enter your two-step verification code.</value>
+    <value>Saisissez votre code d'authentification à double facteurs.</value>
   </data>
   <data name="ExntesionReenable" xml:space="preserve">
-    <value>Re-enable App Extension</value>
+    <value>Activez à nouveau l'extension de l'application</value>
   </data>
   <data name="ExtensionAlmostDone" xml:space="preserve">
-    <value>Almost done!</value>
+    <value>Presque terminé !</value>
   </data>
   <data name="ExtensionEnable" xml:space="preserve">
-    <value>Enable App Extension</value>
+    <value>Activez l'extension de l'application</value>
   </data>
   <data name="ExtensionInSafari" xml:space="preserve">
-    <value>In Safari, find bitwarden using the share icon (hint: scroll to the right on the bottom row of the menu).</value>
+    <value>Sur Safari, trouvez bitwarden en utilisant l'icône de partage (aide : faire défiler sur la droite sur la ligne du bas du menu).</value>
     <comment>Safari is the name of apple's web browser</comment>
   </data>
   <data name="ExtensionInstantAccess" xml:space="preserve">
-    <value>Get instant access to your passwords!</value>
+    <value>Obtenir un accès instantané à vos mots de passe !</value>
   </data>
   <data name="ExtensionReady" xml:space="preserve">
-    <value>You're ready to log in!</value>
+    <value>Vous êtes prêt à vous identifier !</value>
   </data>
   <data name="ExtensionSeeApps" xml:space="preserve">
-    <value>See Supported Apps</value>
+    <value>Voir les applications supportées</value>
   </data>
   <data name="ExtensionSetup" xml:space="preserve">
-    <value>Your logins are now easily accessable from Safari, Chrome, and other supported apps.</value>
+    <value>Vos identifiants sont désormais facilement accessibles depuis Safari, Chrome, et d'autres applications supportées.</value>
   </data>
   <data name="ExtensionSetup2" xml:space="preserve">
-    <value>In Safari and Chrome, find bitwarden using the share icon (hint: scroll to the right on the bottom row of the share menu).</value>
+    <value>Sur Safari et Chrome, trouvez bitwarden en utilisant l'icône de partage (aide : faire défiler sur la droite sur la ligne du bas du menu).</value>
   </data>
   <data name="ExtensionTapIcon" xml:space="preserve">
-    <value>Tap the bitwarden icon in the menu to launch the extension.</value>
+    <value>Appuyez sur l'icône bitwarden dans le menu pour lancer l'extension.</value>
   </data>
   <data name="ExtensionTurnOn" xml:space="preserve">
-    <value>To turn on bitwarden in Safari and other apps, tap the "more" icon on the bottom row of the menu.</value>
+    <value>Pour activer bitwarden sur Safari et d'autres applications, appuyez sur l'icône "plus" sur la ligne du bas du menu.</value>
   </data>
   <data name="Favorite" xml:space="preserve">
-    <value>Favorite</value>
+    <value>Favori</value>
   </data>
   <data name="Fingerprint" xml:space="preserve">
-    <value>Fingerprint</value>
+    <value>Empreintre</value>
   </data>
   <data name="GeneratePassword" xml:space="preserve">
-    <value>Generate Password</value>
+    <value>Générer un mot de passe</value>
   </data>
   <data name="GetPasswordHint" xml:space="preserve">
-    <value>Get your master password hint</value>
+    <value>Obtenir votre indice de mot de passe maître</value>
   </data>
   <data name="ImportLogins" xml:space="preserve">
-    <value>Import Logins</value>
+    <value>Importer des identifiants</value>
   </data>
   <data name="ImportLoginsConfirmation" xml:space="preserve">
-    <value>You can bulk import logins from the bitwarden.com web vault. Do you want to visit the website now?</value>
+    <value>Vous pouvez importer en masse vos identifiants depuis le coffre web sur bitwarden.com. Voulez-vous visiter le site web maintenant ?</value>
   </data>
   <data name="ImportLoginsDescription" xml:space="preserve">
-    <value>Quickly bulk import your logins from other password management apps.</value>
+    <value>Importer rapidement en masse vos identifiants depuis d'autres applications de gestion de mots de passe.</value>
   </data>
   <data name="LastSync" xml:space="preserve">
-    <value>Last Sync:</value>
+    <value>Dernière synchronisation :</value>
   </data>
   <data name="Length" xml:space="preserve">
-    <value>Length</value>
+    <value>Longueur</value>
   </data>
   <data name="Lock" xml:space="preserve">
-    <value>Lock</value>
+    <value>Verrouiler</value>
   </data>
   <data name="LockOption15Minutes" xml:space="preserve">
     <value>15 minutes</value>
   </data>
   <data name="LockOption1Hour" xml:space="preserve">
-    <value>1 hour</value>
+    <value>1 heure</value>
   </data>
   <data name="LockOption1Minute" xml:space="preserve">
     <value>1 minute</value>
   </data>
   <data name="LockOption4Hours" xml:space="preserve">
-    <value>4 hours</value>
+    <value>4 heures</value>
   </data>
   <data name="LockOptionImmediately" xml:space="preserve">
-    <value>Immediately</value>
+    <value>Immédiatement</value>
   </data>
   <data name="LockOptions" xml:space="preserve">
-    <value>Lock Options</value>
+    <value>Options de verrouillage</value>
   </data>
   <data name="LoggingIn" xml:space="preserve">
-    <value>Logging in...</value>
+    <value>Identification...</value>
     <comment>Message shown when interacting with the server</comment>
   </data>
   <data name="LoginOrCreateNewAccount" xml:space="preserve">
-    <value>Log in or create a new account to access your secure vault.</value>
+    <value>Identifiez-vous pour créez un nouveau compte pour accéder à votre coffre sécurisé.</value>
   </data>
   <data name="Manage" xml:space="preserve">
-    <value>Manage</value>
+    <value>Gérer</value>
   </data>
   <data name="MasterPasswordConfirmationValMessage" xml:space="preserve">
-    <value>Password confirmation is not correct.</value>
+    <value>La confirmation du mot de passe est erronée.</value>
   </data>
   <data name="MasterPasswordDescription" xml:space="preserve">
-    <value>The master password is the password you use to access your vault. It is very important that you do not forget your master password. There is no way to recover the password in the event that you forget it.</value>
+    <value>Le mot de passe maître correspond au mot de passe utilisé pour accéder à votre coffre. Il est très important de ne pas l'oublier. Il n'existe aucun moyen de le retrouver en cas d'oubli.</value>
   </data>
   <data name="MasterPasswordHint" xml:space="preserve">
-    <value>Master Password Hint (optional)</value>
+    <value>Indice de mot de passe maître (facultatif)</value>
   </data>
   <data name="MasterPasswordHintDescription" xml:space="preserve">
-    <value>A master password hint can help you remember your password if you forget it.</value>
+    <value>Un indice de mot de passe maître peut vous aider à vous rappeler de votre mot de passe en cas d'oubli.</value>
   </data>
   <data name="MasterPasswordLengthValMessage" xml:space="preserve">
-    <value>Master password must be at least 8 characters long.</value>
+    <value>Le mot de passe maître doit faire plus de 8 caractères.</value>
   </data>
   <data name="MinNumbers" xml:space="preserve">
-    <value>Minimum Numbers</value>
+    <value>Nombres minimums</value>
     <comment>Minimum numeric characters for password generator settings</comment>
   </data>
   <data name="MinSpecial" xml:space="preserve">
-    <value>Minimum Special</value>
+    <value>Caractères spéciaux minimums</value>
     <comment>Minimum special characters for password generator settings</comment>
   </data>
   <data name="MoreSettings" xml:space="preserve">
-    <value>More Settings</value>
+    <value>Plus de paramètres</value>
   </data>
   <data name="MustLogInMainApp" xml:space="preserve">
-    <value>You must log into the main bitwarden app before you can use the extension.</value>
+    <value>Vous devez vous identifier sur l'application principale bitwarden avant d'utiliser l'extension.</value>
   </data>
   <data name="Never" xml:space="preserve">
-    <value>Never</value>
+    <value>Jamais</value>
   </data>
   <data name="NewSiteCreated" xml:space="preserve">
-    <value>New site created.</value>
+    <value>Nouveau site créé.</value>
   </data>
   <data name="NoFavorites" xml:space="preserve">
-    <value>There are no favorites in your vault.</value>
+    <value>Aucun favori dans votre coffre.</value>
   </data>
   <data name="NoSites" xml:space="preserve">
-    <value>There are no sites in your vault.</value>
+    <value>Aucun site dans votre coffre.</value>
   </data>
   <data name="NoSitesTap" xml:space="preserve">
-    <value>There are no sites in your vault for this website. Tap to add one.</value>
+    <value>Aucun site dans votre coffre pour ce site web. Appuyez pour en ajouter un.</value>
   </data>
   <data name="NoUsernamePasswordConfigured" xml:space="preserve">
-    <value>This site does not have a username or password configured.</value>
+    <value>Ce site n'a ni nom d'utilisateur ni mot de passe de configuré.</value>
   </data>
   <data name="OkGotIt" xml:space="preserve">
-    <value>Ok, got it!</value>
+    <value>Ok, compris !</value>
     <comment>Confirmation, like "Ok, I understand it"</comment>
   </data>
   <data name="OptionDefaults" xml:space="preserve">
-    <value>Option defaults are set from the main bitwarden app's password generator tool.</value>
+    <value>Les options par défaut sont définies depuis l'outil de génération de mot de passe de l'application principale bitwarden.</value>
   </data>
   <data name="Options" xml:space="preserve">
     <value>Options</value>
   </data>
   <data name="Other" xml:space="preserve">
-    <value>Other</value>
+    <value>Autres</value>
   </data>
   <data name="PasswordGenerated" xml:space="preserve">
-    <value>Password generated.</value>
+    <value>Mot de passe généré.</value>
   </data>
   <data name="PasswordGenerator" xml:space="preserve">
-    <value>Password Generator</value>
+    <value>Générateur de mot de passe</value>
   </data>
   <data name="PasswordGeneratorDescription" xml:space="preserve">
-    <value>Automatically generate strong, unique passwords for your logins.</value>
+    <value>Générer automatiquement des mots de passe forts et uniques pour vos identifiants.</value>
   </data>
   <data name="PasswordHint" xml:space="preserve">
-    <value>Password Hint</value>
+    <value>Indice du mot de passe</value>
   </data>
   <data name="PasswordHintAlert" xml:space="preserve">
-    <value>We've sent you an email with your master password hint.</value>
+    <value>Nous nous avons envoyé un e-mail avec l'indice de votre mot de passe.</value>
   </data>
   <data name="PasswordOverrideAlert" xml:space="preserve">
-    <value>Are you sure you want to overwrite the current password?</value>
+    <value>Êtes-vous sûr(e) d'écraser le mot de passe existant ?</value>
   </data>
   <data name="PushNotificationAlert" xml:space="preserve">
-    <value>bitwarden keeps your vault automatically synced by using push notifications. For the best possible experience, please select \"Ok\" on the following prompt when asked to enable push notifications.</value>
+    <value>bitwarden conserve automatiquement votre coffre synchronisé en utilisant des notifications push. Pour la meilleure expérience possible, veuillez choisir \"Ok\" sur la boîte de dialoque suivante (activation des notifications push).</value>
     <comment>Push notifications for apple products</comment>
   </data>
   <data name="RateTheApp" xml:space="preserve">
-    <value>Rate the App</value>
+    <value>Noter l'application</value>
   </data>
   <data name="RateTheAppDescription" xml:space="preserve">
-    <value>Please consider helping us out with a good review!</value>
+    <value>Merci de nous aider en postant un commentaire positif !</value>
   </data>
   <data name="RateTheAppDescriptionAppStore" xml:space="preserve">
-    <value>App Store ratings are reset with every new version of bitwarden. Please consider helping us out with a good review!</value>
+    <value>Les notes des magasins d'applications sont réinitialisées à chaque nouvelle version de bitwarden. Merci de nous aider en postant un commentaire positif !</value>
   </data>
   <data name="RegeneratePassword" xml:space="preserve">
-    <value>Regenerate Password</value>
+    <value>Regénérer un mot de passe</value>
   </data>
   <data name="RetypeMasterPassword" xml:space="preserve">
-    <value>Re-type Master Password</value>
+    <value>Saisir à nouveau le mot de passe maître</value>
   </data>
   <data name="SearchVault" xml:space="preserve">
-    <value>Search vault</value>
+    <value>Recherche dans le coffre</value>
   </data>
   <data name="Security" xml:space="preserve">
-    <value>Security</value>
+    <value>Sécurité</value>
   </data>
   <data name="SeeDevProgress" xml:space="preserve">
-    <value>See Development Progress</value>
+    <value>Voir le suivi du développement</value>
   </data>
   <data name="Select" xml:space="preserve">
-    <value>Select</value>
+    <value>Sélectionner</value>
   </data>
   <data name="SetPIN" xml:space="preserve">
-    <value>Set PIN</value>
+    <value>Définir PIN</value>
   </data>
   <data name="SetPINDirection" xml:space="preserve">
-    <value>Enter a 4 digit PIN code to unlock the app with.</value>
+    <value>Saisissez un code PIN à 4 chiffres pour déverrouiller l'application.</value>
   </data>
   <data name="SiteInformation" xml:space="preserve">
-    <value>Site Information</value>
+    <value>Informations sur le site</value>
   </data>
   <data name="SiteUpdated" xml:space="preserve">
-    <value>Site updated.</value>
+    <value>Site mis à jour.</value>
   </data>
   <data name="Submitting" xml:space="preserve">
-    <value>Submitting...</value>
+    <value>Soumission...</value>
     <comment>Message shown when interacting with the server</comment>
   </data>
   <data name="Syncing" xml:space="preserve">
-    <value>Syncing...</value>
+    <value>Synchronisation...</value>
     <comment>Message shown when interacting with the server</comment>
   </data>
   <data name="SyncingComplete" xml:space="preserve">
-    <value>Syncing complete.</value>
+    <value>Synchronisation terminée.</value>
   </data>
   <data name="SyncingFailed" xml:space="preserve">
-    <value>Syncing failed.</value>
+    <value>Échec de la synchronisation.</value>
   </data>
   <data name="SyncVaultNow" xml:space="preserve">
-    <value>Sync Vault Now</value>
+    <value>Synchroniser le coffre maintenant</value>
   </data>
   <data name="TouchID" xml:space="preserve">
     <value>Touch ID</value>
     <comment>What Apple calls their fingerprint reader.</comment>
   </data>
   <data name="TwoStepLogin" xml:space="preserve">
-    <value>Two-step Login</value>
+    <value>Identification à double facteurs</value>
   </data>
   <data name="TwoStepLoginConfirmation" xml:space="preserve">
-    <value>Two-step login makes your account more secure by requiring you to enter a security code from an authenticator app whenever you log in. Two-step login can be enabled on the bitwarden.com web vault. Do you want to visit the website now?</value>
+    <value>L'authentification à double facteurs rend votre compte plus sécurisé en vous demandant la saisie d'un code de sécurité à chaque identification depuis l'application d'authentification. L'identification à double facteurs peut être activée dans le coffre web sur bitwarden.com. Voulez-vous visiter le site web maintenant ?</value>
   </data>
   <data name="UnlockWith" xml:space="preserve">
-    <value>Unlock with {0}</value>
+    <value>Déverrouiler avec {0}</value>
   </data>
   <data name="UnlockWithPIN" xml:space="preserve">
-    <value>Unlock with PIN Code</value>
+    <value>Déverrouiller avec un code PIN</value>
   </data>
   <data name="ValidatingCode" xml:space="preserve">
-    <value>Validating code...</value>
+    <value>Vérification du code...</value>
     <comment>Message shown when interacting with the server</comment>
   </data>
   <data name="VerificationCode" xml:space="preserve">
-    <value>Verification Code</value>
+    <value>Code de vérification</value>
   </data>
   <data name="ViewSite" xml:space="preserve">
-    <value>View Site</value>
+    <value>Voir le site</value>
   </data>
   <data name="WebVault" xml:space="preserve">
-    <value>bitwarden Web Vault</value>
+    <value>Coffre web bitwarden</value>
   </data>
   <data name="WebVaultDescription" xml:space="preserve">
-    <value>Manage your logins from any web browser with the bitwarden web vault.</value>
+    <value>Gérer vos identifiants depuis n'importe quel navigateur avec le coffre web bitwarden.</value>
   </data>
   <data name="Lost2FAApp" xml:space="preserve">
-    <value>Lost authenticator app?</value>
+    <value>Application d'authentification perdue ?</value>
   </data>
   <data name="Sites" xml:space="preserve">
     <value>Sites</value>
     <comment>Screen title</comment>
   </data>
   <data name="ExtensionActivated" xml:space="preserve">
-    <value>Extension Activated!</value>
+    <value>Extension activée !</value>
   </data>
   <data name="Icons" xml:space="preserve">
-    <value>Icons</value>
+    <value>Icônes</value>
   </data>
   <data name="Translations" xml:space="preserve">
-    <value>Translations</value>
+    <value>Traductions</value>
   </data>
 </root>
